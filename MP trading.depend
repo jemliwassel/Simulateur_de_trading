@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1621208699 source:c:\users\fnac\onedrive\bureau\code\mp trading\action.cpp
+	"action.h"
+
+1623095887 source:c:\users\fnac\onedrive\bureau\code\mp trading\bourse.cpp
+	"bourse.h"
+	<string>
+	<vector>
+	<cstdlib>
+
+1622127150 source:c:\users\fnac\onedrive\bureau\code\mp trading\gestionhistorique.cpp
+	"gestionHistorique.h"
+	"bourse.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cstdlib>
+
+1621937437 c:\users\fnac\onedrive\bureau\code\mp trading\gestionhistorique.h
+
+1621208649 c:\users\fnac\onedrive\bureau\code\mp trading\action.h
+	<string>
+
+1623140613 source:c:\users\fnac\onedrive\bureau\code\mp trading\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cstdlib>
+	"gestionHistorique.h"
+	"prix_journalier.h"
+	"date.h"
+	"titre.h"
+	"transaction.h"
+	"trader.h"
+	"bourse.h"
+	"simulation.h"
+
+1622503686 source:c:\users\fnac\onedrive\bureau\code\mp trading\portefeuille.cpp
+	"portefeuille.h"
+	"titre.h"
+	<iostream>
+	<vector>
+	"bourse.h"
+
+1622501534 c:\users\fnac\onedrive\bureau\code\mp trading\portefeuille.h
+	"titre.h"
+	"date.h"
+	<vector>
+
+1621593662 c:\users\fnac\onedrive\bureau\code\mp trading\titre.h
+	"action.h"
+
+1622500413 source:c:\users\fnac\onedrive\bureau\code\mp trading\titre.cpp
+	"titre.h"
+
+1622494683 source:c:\users\fnac\onedrive\bureau\code\mp trading\date.cpp
+	"date.h"
+	<iostream>
+
+1621545000 c:\users\fnac\onedrive\bureau\code\mp trading\date.h
+	<iostream>
+
+1623095879 c:\users\fnac\onedrive\bureau\code\mp trading\bourse.h
+	"prix_journalier.h"
+	<vector>
+	<string>
+	<map>
+	"date.h"
+
+1621937437 c:\users\fnac\onedrive\bureau\code\mp trading\prix_journalier.h
+	<string.h>
+	"date.h"
+	"action.h"
+
+1621937436 source:c:\users\fnac\onedrive\bureau\code\mp trading\prix_journalier.cpp
+	"prix_journalier.h"
+	"date.h"
+	"action.h"
+	"bourse.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cstdlib>
+
+1623095346 source:c:\users\fnac\onedrive\bureau\code\mp trading\simulation.cpp
+	"simulation.h"
+	"trader.h"
+	"date.h"
+	"portefeuille.h"
+	<string>
+	<iostream>
+	<string>
+
+1623146734 source:c:\users\fnac\onedrive\bureau\code\mp trading\trader.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"transaction.h"
+	"trader.h"
+	"date.h"
+
+1622817487 source:c:\users\fnac\onedrive\bureau\code\mp trading\transaction.cpp
+	"transaction.h"
+	"action.h"
+	"string"
+
+1622817405 c:\users\fnac\onedrive\bureau\code\mp trading\transaction.h
+	"action.h"
+
+1623095361 c:\users\fnac\onedrive\bureau\code\mp trading\simulation.h
+	"date.h"
+	"bourse.h"
+	"trader.h"
+	"portefeuille.h"
+	<string>
+	<iostream>
+
+1623004954 c:\users\fnac\onedrive\bureau\code\mp trading\trader.h
+	"transaction.h"
+	"portefeuille.h"
+	"date.h"
+	"bourse.h"
+	<string>
+	<vector>
+	<iostream>
+

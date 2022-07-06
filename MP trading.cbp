@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MP trading" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MP trading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MP trading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="action.cpp" />
+		<Unit filename="action.h" />
+		<Unit filename="bourse.cpp" />
+		<Unit filename="bourse.h" />
+		<Unit filename="date.cpp" />
+		<Unit filename="date.h" />
+		<Unit filename="gestionHistorique.cpp" />
+		<Unit filename="gestionHistorique.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="portefeuille.cpp" />
+		<Unit filename="portefeuille.h" />
+		<Unit filename="prix_journalier.cpp" />
+		<Unit filename="prix_journalier.h" />
+		<Unit filename="simulation.cpp" />
+		<Unit filename="simulation.h" />
+		<Unit filename="titre.cpp" />
+		<Unit filename="titre.h" />
+		<Unit filename="trader.cpp" />
+		<Unit filename="trader.h" />
+		<Unit filename="transaction.cpp" />
+		<Unit filename="transaction.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
